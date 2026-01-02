@@ -1,2 +1,2 @@
 # maxwell-demon
-File organizer made in rust
+High performance file organizer made in rust

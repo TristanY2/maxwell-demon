@@ -1,3 +1,4 @@
+use clap::{Parser, Subcommand};
 use std::collections::HashMap;
 use std::env;
 use std::fs;
@@ -120,6 +121,8 @@ fn main() {
                                 println!("Ahi se quedó")
                             }
                         }
+                    } else {
+                        println!("Ahi se quedó")
                     }
                 }
                 Err(e) => println!("Error abriendo el archivo {e}"),
